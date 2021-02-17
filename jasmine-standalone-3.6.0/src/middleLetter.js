@@ -2,7 +2,7 @@
 
 function middleLetter(word) {
   var a = (word.length)
-  if(isOdd(a) === true) 
+  if(isOdd(a)) 
    { return word.split("")[(a / 2 ) - 0.5]
   } else {
     return word.split("")[(a/2) - 1] + word.split("")[(a / 2 )] 
